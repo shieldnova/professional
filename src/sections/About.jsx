@@ -70,7 +70,7 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
               {[
                 { icon: Heart, label: "Premium Care", value: "100%" },
-                { icon: Award, label: "Expert Team", value: "5+ Years" },
+                { icon: Award, label: "Expert Team", value: "15+ Years" },
                 { icon: Users, label: "Happy Clients", value: "1000+" },
               ].map((stat, index) => (
                 <motion.div
