@@ -7,6 +7,7 @@ import facialImg from "@/assets/facial-treatment.jpg";
 import hairImg from "@/assets/hair-styling.jpg";
 import manicureImg from "@/assets/manicure-pedicure.jpg";
 import nailArtImg from "@/assets/nail-art.jpg";
+import threadImg from "@/assets/threading.png";
 
 const services = [
   {
@@ -46,6 +47,12 @@ const services = [
   {
     title: "Eyebrow Threading",
     description: "Perfectly shaped brows",
+    icon:Eye,
+    image:threadImg,
+  },
+    {
+    title: "Home Services",
+    description: "All Services Near Your Door Steps",
     icon: Eye,
   },
 ];
